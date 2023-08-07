@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Prata&family=Rubik&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --ui-brand-color: #c8693;
+    --background-color: #261e1c;
+    --text-color: grey;
+    font-family: 'Rubik', sans-serif;
+    scroll-behavior: smooth;
+    color: var(--text-color);
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+h1,
+h2 {
+    font-family: 'Prata', serif;
+    color: var(--ui-brand-color);
+    font-size: 20px;
+}
+
+h1:hover {
+    text-decoration: underline;
+}
+
+h1::first-letter {
+    font-size: 3rem;
+}
+
+
